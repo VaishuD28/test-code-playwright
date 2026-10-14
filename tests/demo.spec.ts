@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 
+//Solution for Interview code task
 test("FinOps Dashboard test", async ({ page }) =>
 {
     await test.step("Navigate to finops dashboard", async () => {
